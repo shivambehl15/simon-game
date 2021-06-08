@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.title{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5rem;
+  color: paleturquoise;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-instructions a{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+@media(max-width: 1150px){
+  
+  #level-title{
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  .btn{
+    width: 150px;
+    height: 150px;
+  }
+
+}
+
+
+@media(max-width: 750px){
+
+  #level-title{
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .btn{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+  }
+
+}
