@@ -24,9 +24,11 @@ $(document).keydown(function(){
 
 $(document).click(function(){
     if(!started){
-        $("#level-title").text("Level " + level);
-        nextSequence();
-        started = true;
+        setTimeout(function(){
+            $("#level-title").text("Level " + level);
+            nextSequence();
+            started = true;
+        }, 2000);
     }
 });
 
